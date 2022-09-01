@@ -90,8 +90,9 @@ echo '<a href="https://www.office365.com/">www.office365.com </a>, ';
 echo '<a href="https://www.linkedin.com/">www.linkedin.com </a>, ';
 echo '<a href="https://www.whatsapp.com/">www.whatsapp.com </a>, ';
 echo '<a href="https://www.apple.com/">www.apple.com </a>, ';
-echo '<a href="https://www.salesforce.com/">www.salesforce.com </a> <br>';
+echo '<a href="https://www.salesforce.com/">www.salesforce.com </a>, ';
 echo '<a href="https://www.wikipedia.org/">www.wikipedia.org </a> <br>';
+
 
 echo "<br>";
 
