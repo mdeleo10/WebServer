@@ -36,6 +36,13 @@ else
 
 echo "<br>";
 
+
+$exec_str="whois $ip_address | grep OrgName | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
+$ISP=exec($exec_str,$test);
+echo "Your Internet Service Provider (ISP) appears to be $ISP";
+echo "<br>";
+echo "<br>";
+
 // Use JSON encoded string and converts
 // it into a PHP variable
 $ipdat = @json_decode(file_get_contents(
