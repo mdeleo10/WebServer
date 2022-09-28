@@ -38,19 +38,23 @@ echo "<br>";
 
 
 // WHOIS database fields vary for LACNIC, ARIN, China, RIPE.... 
+//Whois for LACNIC
 $exec_str="whois $ip_address | grep owner: | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
 $ISP=exec($exec_str,$test);
+//Whois for ARIN
 if (empty($ISP) )
 {
         $exec_str="whois $ip_address | grep OrgName | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
         $ISP=exec($exec_str,$test);
 };
 if (empty($ISP) )
+//Whois for APNIC org-name
 {
         $exec_str="whois $ip_address | grep org-name | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
         $ISP=exec($exec_str,$test);
 };
 if (empty($ISP) )
+// WHOIS for RIPE owner/netname
 {
         $exec_str="whois $ip_address | grep netname | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
         $ISP=exec($exec_str,$test);
