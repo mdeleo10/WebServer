@@ -37,6 +37,7 @@ else
 echo "<br>";
 
 
+// WHOIS database fields vary for LACNIC, ARIN, China, RIPE.... 
 $exec_str="whois $ip_address | grep owner: | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
 $ISP=exec($exec_str,$test);
 if (empty($ISP) )
