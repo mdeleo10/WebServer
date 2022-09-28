@@ -59,6 +59,7 @@ if (empty($ISP) )
         $exec_str="whois $ip_address | grep netname | awk {'first = $1; $1=\"\"; print $0'}|sed 's/^ //g'";
         $ISP=exec($exec_str,$test);
 };
+$ISP=strtoupper($ISP);
 echo "Your Internet Service Provider (ISP) appears to be $ISP";
 echo "<br>";
 echo "<br>";
