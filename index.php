@@ -3,6 +3,14 @@
  phpinfo();
  */
 
+// Add Local hostname to header for Frontdoor or other load balacing checks.
+$exec_str = "hostname";
+//echo "Your exec_str is ", $exec_str, "<br>";
+$host_name = exec($exec_str,$test);
+echo "<head>";
+echo "<title>",$host_name,"</title>";
+echo "</head>";
+
 if (!empty($_SERVER['HTTP_CLIENT_IP']))
   {
     $ip_address = $_SERVER['HTTP_CLIENT_IP'];
