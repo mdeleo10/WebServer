@@ -3,7 +3,7 @@
  phpinfo();
  */
 
-// Add Local hostname to header for Frontdoor or other load balacing checks.
+// Add Local hostname to header for Frontdoor or other load balacing testing
 $exec_str = "hostname";
 //echo "Your exec_str is ", $exec_str, "<br>";
 $host_name = exec($exec_str,$test);
