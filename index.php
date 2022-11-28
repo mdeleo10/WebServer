@@ -132,14 +132,12 @@ echo '<a href="https://www.wikipedia.org/">www.wikipedia.org </a> <br>';
 
 echo "<br>";
 
-echo "Mexico: Popular IPv6 sites<br>";
+echo "Some IPv6 only sites<br>";
 echo "<br>";
 
-echo '<a href="https://www.google.com.mx/">www.google.com.mx </a>, ';
-echo '<a href="https://www.eluniversal.com.mx/">www.eluniversal.com.mx </a>, ';
-echo '<a href="https://www.elfinanciero.com.mx/">www.elfinanciero.com.mx </a>, ';
-echo '<a href="https://www.sat.gob.mx/">www.sat.gob.mx </a>, ';
-echo '<a href="https://www.unam.mx/">www.unam.mx </a> <br>';
+echo '<a href="https://ipv6.google.com.mx/">ipv6.google.com </a>, ';
+echo '<a href="https://www.v6.facebook.com/">www.v6.facebook.com </a>, ';
+echo '<a href="http://loopsofzen.co.uk/">loopsofzen.co.uk </a>, ';
 echo "<br>";
 echo "<br>";
 echo "IPv6 adoption Statiestics <br>";
