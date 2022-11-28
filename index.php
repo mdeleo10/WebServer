@@ -137,7 +137,7 @@ echo "<br>";
 
 echo '<a href="https://ipv6.google.com.mx/">ipv6.google.com </a>, ';
 echo '<a href="https://www.v6.facebook.com/">www.v6.facebook.com </a>, ';
-echo '<a href="http://loopsofzen.co.uk/">loopsofzen.co.uk </a>, ';
+echo '<a href="https://loopsofzen.co.uk/">loopsofzen.co.uk </a>, ';
 echo "<br>";
 echo "<br>";
 echo "IPv6 adoption Statiestics <br>";
