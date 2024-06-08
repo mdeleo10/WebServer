@@ -178,6 +178,7 @@ echo 'DNSViz is a tool for visualizing the status of a DNS zone <a href="https:/
 echo "<br>";
 echo "Check your browser to see if you are QUIC ready...<br>";
 echo 'Test QUIC at <a href="https://quic.nginx.org/"> quick.nginx.org </a> <br>';
+echo 'Test if QUIC is available for a website <a href="https://http3check.net/"> http3check.net </a> <br>';
 
 echo "<br>";
 echo '<a href="https://mdeleo.com/index_spa.php/">Español</a> <br>';
